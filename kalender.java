@@ -16,6 +16,7 @@ public class kalender {
 
 	    String eingabe = JOptionPane.showInputDialog("Bitte ein Jahr eingeben: ");
 
+	    // abfrage noch aufteilen damit bei abbrechen auch abgebrochen wird
 	    if (eingabe == null || !eingabe.matches("\\d{4}")) {
 		JOptionPane.showMessageDialog(null, "Ungültige Eingabe! Bitte eine 4stellige Zahl eingeben.");
 	    } else {
